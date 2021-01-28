@@ -27,7 +27,7 @@ nvm alias default 10
 
 #### Install Yarn
 
-We use Yarn to build all of the [celo-monorepo] repo. Install it using the below command:
+Install it using the below command:
 
 ```
 npm install -g yarn
@@ -37,7 +37,7 @@ npm install -g yarn
 
 [Install Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12). This is a large program and may take a bit of time if you don't already have it.
 
-Xcode is needed to build and deploy the mobile wallet to your iOS device. If you do not have an iOS device, Xcode can be used to emulate one.
+Xcode is needed to build and deploy the app. If you do not have an iOS device, Xcode can be used to emulate one.
 
 #### Install Xcode CLI
 
@@ -67,8 +67,7 @@ Navigate into the directory and install the necessary dependencies by entering t
 
 ```
 cd qa-interview-assignment
-yarn install
-yarn run setup
+yarn install && yarn run setup
 ```
 
 Run the simulator using the below command. This should open a new terminal window with the app bundler as well as a new window with an iOS simulator. The app should take about 5-10 mins to boot up.
