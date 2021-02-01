@@ -34,24 +34,6 @@ target 'InstagramClone' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-
-
-  pod 'RNSVG', :path => '../node_modules/react-native-svg'
-
-  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
-
-  pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
-
-  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
-
-
-  pod 'react-native-camera', :path => '../node_modules/react-native-camera'
-
-  pod 'react-native-cameraroll', :path => '../node_modules/@react-native-community/cameraroll'
-
-
-  pod 'react-native-blur', :path => '../node_modules/@react-native-community/blur'
-
   target 'InstagramCloneTests' do
     inherit! :search_paths
     # Pods for testing
