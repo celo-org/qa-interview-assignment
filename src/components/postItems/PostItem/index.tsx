@@ -196,6 +196,7 @@ class PostItem extends React.Component<IPostItemProps> {
                 size={26}
                 onPress={this.handleOnPressLike}
                 style={styles.icon}
+                testID={`${id}/likeButton`}
               />
             </TouchableOpacity>
             <TouchableOpacity style={{ marginLeft: 16 }}>
@@ -217,7 +218,7 @@ class PostItem extends React.Component<IPostItemProps> {
               />
             </TouchableOpacity>
           </View>
-          <View style={styles.cardStatsCounter} testID={`${id}/cardStatsCounter`}>
+          <View style={styles.cardStatsCounter}>
             <View style={Object.assign({})}>
               <Text
                 style={styles.likeCounter}
