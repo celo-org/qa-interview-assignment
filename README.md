@@ -89,7 +89,7 @@ You should be all set with an Instagram clone running on an iOS simulator. If yo
 
 - Write 5-10 tests using the [Detox framework](https://github.com/wix/Detox), which has already been configured to run in this app. Again, **test only the home portion** of the app. You can test whatever you'd like - a mix of tests that are designed to pass (i.e., the test confirms that the feature works as expected) and designed to fail (i.e., the test highlights that a feature is broken) would be ideal.
 - Write all tests in `e2e/tests/app.spec.ts`. You will find one example test written for you there to give you an idea of what we are looking for.
-- The test suite is programmed to run if you type `yarn test` in the root directory of this repo. This is where you will see if your tests are passing or failing. If the example test we've included is not passing, please let us know as there is likely an issue we need to resolve on our end.
+- The test suite is programmed to run if you type `yarn test` in the root directory of this repo. You have the app running in the simulator and have accepted all prompts for permissions for the tests to run correctly. This is where you will see if your tests are passing or failing. If the example test we've included is not passing, please let us know as there is likely an issue we need to resolve on our end.
 
 ### Submission
 
