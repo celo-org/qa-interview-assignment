@@ -70,7 +70,7 @@ cd qa-interview-assignment
 yarn run setup
 ```
 
-Run the simulator using the below command. This should open a new terminal window with the app bundler as well as a new window with an iOS simulator. The app should take about 5-10 mins to boot up.
+Run the simulator using the below command. This should open a new terminal window with the app bundler as well as a new window with an iOS simulator. The app should take about 2 mins to boot up.
 
 ```
 yarn run ios
@@ -82,14 +82,14 @@ You should be all set with an Instagram clone running on an iOS simulator. If yo
 
 ### Manual QA
 
-- Make note of any bugs or quality shortcomings in the **home portion** of the Instagram clone. _Do not press any_ of the other icons in the _header_ (i.e., Camera, TV, or DM shortcut) or _footer_ (i.e., Search, Post, Activitv, or Profile). The app is too large to fully QA...please stick to the Stories and Activity Feed in the Home portion!
+- Make note of any bugs or quality shortcomings in the **Home portion** of the Instagram clone. _Do not navigate to or test any other portions of the app (i.e., Camera, TV, DMs, Search, Post, Activitv, or Profile)_. The app is too large to fully QA...please stick to the Stories and Activity Feed in the Home portion!
 - Please organize this feedback as if you were communicating with an engineer that has asked for your help in QA'ing a new feature. In the final round of the interview process, this is what you will be asked to do! Feel free to use any program you'd like to take notes as long as it's easily shareable (e.g., Google Docs, Google Sheets, PDF, bullet points on an email).
 
 ### Automated QA
 
 - Write 5-10 tests using the [Detox framework](https://github.com/wix/Detox), which has already been configured to run in this app. Again, **test only the home portion** of the app. You can test whatever you'd like - a mix of tests that are designed to pass (i.e., the test confirms that the feature works as expected) and designed to fail (i.e., the test highlights that a feature is broken) would be ideal.
-- Write all tests in `e2e/tests/app.spec.ts`. You will find one example test written for you there to give you an idea of what we are looking for.
-- The test suite is programmed to run if you type `yarn test` in the root directory of this repo. You have the app running in the simulator and have accepted all prompts for permissions for the tests to run correctly. This is where you will see if your tests are passing or failing. If the example test we've included is not passing, please let us know as there is likely an issue we need to resolve on our end.
+- Write all tests in `e2e/tests/app.spec.ts`. You will find one example test written there to get you started.
+- The test suite is programmed to run if you type `yarn test` in the root directory of this repo. You must have the app running in the simulator (i.e., run `yarn run ios` before running `yarn test`) for the tests to run correctly. After running `yarn test` you will see if your tests are passing or failing. If the example test we've included is not passing, please let us know as there is likely an issue we need to resolve on our end.
 
 ### Submission
 
