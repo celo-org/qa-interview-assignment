@@ -7,7 +7,7 @@ jest.setTimeout(120000);
 jasmine.getEnv().addReporter(adapter);
 
 beforeAll(async () => {
-  await init(config, { initGlobals: false });
+  await init(config, { launchApp: false, initGlobals: true });
 });
 
 beforeEach(async () => {

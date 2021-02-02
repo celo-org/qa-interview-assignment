@@ -13,6 +13,7 @@ import { generateHiperlinkText } from "~/utils/methods";
 import { colors } from "~/utils/theme";
 
 interface IPostItemProps {
+  id: string;
   avatar: String;
   author: String;
   time: String;
@@ -100,6 +101,7 @@ class PostItem extends React.Component<IPostItemProps> {
 
   render() {
     const {
+      id,
       avatar,
       author,
       image,
@@ -215,11 +217,11 @@ class PostItem extends React.Component<IPostItemProps> {
               />
             </TouchableOpacity>
           </View>
-          <View style={styles.cardStatsCounter} testID={"cardStatsCounter"}>
+          <View style={styles.cardStatsCounter} testID={`${id}/cardStatsCounter`}>
             <View style={Object.assign({})}>
               <Text
                 style={styles.likeCounter}
-                testID={"likeCounter"}
+                testID={`${id}/likeCounter`}
               >{`${totalLikes} Likes`}</Text>
               {generateHiperlinkText(
                 <Text style={styles.viewMoreText} numberOfLines={2}>
