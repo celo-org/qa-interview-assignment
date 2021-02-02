@@ -215,9 +215,12 @@ class PostItem extends React.Component<IPostItemProps> {
               />
             </TouchableOpacity>
           </View>
-          <View style={styles.cardStatsCounter}>
+          <View style={styles.cardStatsCounter} testID={"cardStatsCounter"}>
             <View style={Object.assign({})}>
-              <Text style={styles.likeCounter}>{`${totalLikes} Likes`}</Text>
+              <Text
+                style={styles.likeCounter}
+                testID={"likeCounter"}
+              >{`${totalLikes} Likes`}</Text>
               {generateHiperlinkText(
                 <Text style={styles.viewMoreText} numberOfLines={2}>
                   @Ivana_ivanka 😜🙌🔥, #party🔥🔥, #people,#artist,#friendzone;
