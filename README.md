@@ -67,13 +67,13 @@ Navigate into the directory and install the necessary dependencies by entering t
 
 ```
 cd qa-interview-assignment
-yarn install && yarn run setup
+yarn run setup
 ```
 
 Run the simulator using the below command. This should open a new terminal window with the app bundler as well as a new window with an iOS simulator. The app should take about 5-10 mins to boot up.
 
 ```
-yarn run react-native run-ios
+yarn run ios
 ```
 
 You should be all set with an Instagram clone running on an iOS simulator. If you've had any issues completing the setup process, please get in touch with your interview coordinator before continuing.
