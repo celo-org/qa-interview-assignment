@@ -1,3 +1,5 @@
+//@ts-ignore
+
 const jestExpect = require("expect");
 
 describe("Example", () => {
