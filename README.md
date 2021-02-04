@@ -53,7 +53,7 @@ xcode-select --install
 gem install cocoapods
 ```
 
-If your machine does not recognize the `gem` command, you may need to [download Ruby](https://rubyinstaller.org/) first.
+If your machine does not recognize the `gem` command, you may need to [download Ruby](https://www.ruby-lang.org/en/documentation/installation/) first.
 
 ### Running the App
 
