@@ -4,11 +4,11 @@ QA is an important part of the mobile development process at cLabs and we believ
 
 This repo is home to an Instagram clone, which is largely based off the work done by [Pavel Foujeu](https://twitter.com/Pavel_FFP) in [this public repo](https://github.com/Doha26/Instagram-clone). We ask that candidates follow the steps to launch the app in an iOS simulator then preform manual testing and automated testing (using the Detox framework).
 
-This takehome excerise is meant to take no more than 3 hours and is the most important part of the QA Engineer interview process. Upon successful completion of this takehome, you will be invited to a set of final round interviews in which you will be asked to explain the thought process behind the work you submitted. If you have any issues following the below instructures for getting the app running, please do not hestitate to reach out to your interview coordinator. This exercise is meant to showcase your QA skills and nothing more!
+This takehome excerise is meant to take no more than 3 hours and is the most important part of the QA Engineer interview process. Upon successful completion of this takehome, you will be invited to a set of final round interviews in which you will be asked to explain the thought process behind the work you submitted. If you have any issues following the below instructures for getting the app running, please do not hestitate to reach out to your Recruiting Partner. This exercise is meant to showcase your QA skills and nothing more!
 
 ## Getting Setup
 
-The below steps will walk you through getting the Instagram clone running on an iOS simulator on your computer. If you have any issues following these steps to getting a simulator running, please reach out to your interview coordinator.
+The below steps will walk you through getting the Instagram clone running on an iOS simulator on your computer. If you have any issues following these steps to getting a simulator running, please reach out to your Recruiting Partner.
 
 ### Packages and Programs to Install
 
@@ -76,7 +76,7 @@ Run the simulator using the below command. This should open a new terminal windo
 yarn run ios
 ```
 
-You should be all set with an Instagram clone running on an iOS simulator. If you've had any issues completing the setup process, please get in touch with your interview coordinator before continuing.
+You should be all set with an Instagram clone running on an iOS simulator. If you've had any issues completing the setup process, please get in touch with your Recruiting Partner before continuing.
 
 ## Tasks
 
@@ -99,7 +99,7 @@ brew upgrade applesimutils
 
 ### Submission
 
-Upon completion, please email your interview coordinator with an email titled _[Your last name] - cLabs QA Engineer Takehome_ and the following attachments:
+Upon completion, please email your Recruiting Partner with an email titled _[Your last name] - cLabs QA Engineer Takehome_ and the following attachments:
 
 - A digital copy to your manual testing notes or a link where we can access it (please make sure it's publicly accesible)
 - The `app.spec.ts` file you have written your Detox tests in
