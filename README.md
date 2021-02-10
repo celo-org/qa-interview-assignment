@@ -55,7 +55,7 @@ gem install cocoapods
 
 If your machine does not recognize the `gem` command, you may need to [download Ruby](https://www.ruby-lang.org/en/documentation/installation/) first.
 
-#### Apple Sim Utils
+#### Install Apple Sim Utils
 
 ```
 brew tap wix/brew
